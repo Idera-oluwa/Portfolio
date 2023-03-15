@@ -18,7 +18,7 @@ const Navbar = () => {
       }
   }, [])
     return (
-        <div className='fixed top-0 z-50 mx-[auto] left-0 right-0 bg-white flex items-center shadow-md'>
+        <div className='fixed top-0 z-[11000] mx-[auto] left-0 right-0 bg-white flex items-center shadow-md'>
             {show && <div className='w-[83vw] mx-[auto]'>
                 <div className='flex flex-row items-center py-[0.8rem]'>
             {/* For Navbar */}

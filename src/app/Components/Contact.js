@@ -36,12 +36,12 @@ const Contact = () => {
             </div>
          </div>
          <div className='col-span-1'>
-          <div className='bg-white w-[26rem] pb-[3rem] ml-auto'>
+          <div className='bg-white w-[26rem] pb-[2.5rem] ml-auto'>
        <div className='bg-[#f83b66] py-[0.5rem]'> <p className='text-white text-[1.3rem] font-normal text-center'>Contact Me</p></div>
           <form className=' pt-[3rem] px-[2rem] flex flex-col gap-[2rem]'>
-              <input type='text' placeholder='Name *' className='border-[1px] border-[#e3e3e3] text-black opacity-90 w-[100%] py-[0.8rem] px-[0.5rem]'/>
-              <input type='text' placeholder='E-mail *' className='border-[1px] border-[#e3e3e3] text-black opacity-90 w-[100%] py-[0.8rem] px-[0.5rem]'/>
-              <textarea placeholder='Your Message' className='border-[1px] resize-none border-[#e3e3e3] text-black opacity-90 h-[10rem] w-[100%] py-[0.8rem] px-[0.5rem]'/>
+              <input type='text' placeholder='Name *' className='border-[1px] border-[#e3e3e3] hover:border-[red] focus:border-[red] text-black opacity-90 w-[100%] py-[0.8rem] px-[0.5rem]'/>
+              <input type='text' placeholder='E-mail *' className='border-[1px] border-[#e3e3e3] hover:border-[red] focus:border-[red] text-black opacity-90 w-[100%] py-[0.8rem] px-[0.5rem]'/>
+              <textarea placeholder='Your Message' className='border-[1px] resize-none border-[#e3e3e3] hover:border-[red] focus:border-[red] text-black opacity-90 h-[10rem] w-[100%] py-[0.8rem] px-[0.5rem]'/>
               <button className='bg-[#f83b66] transition duration-300 py-[0.5rem] px-[1.7rem] rounded-[25px] border-[1px] border-[#f83b66] hover:border-[white] hover:bg-[#000000e6] text-[white] w-[10rem]'>Send Message</button>
           </form>
           </div>
