@@ -1,3 +1,4 @@
+"use client"
 import { Inter } from 'next/font/google'
 import Hero from './Components/Hero'
 import Navbar from './Components/Navbar'
@@ -7,19 +8,33 @@ import Portfolio from './Components/Portfolio'
 import Catalogue from './Components/Catalogue'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer'
+import Sidebar from './Components/Sidebar'
+import { useState } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  return (
+  const [menuOpen, setMenuOpen] = useState(false);
+  const openMenu = () =>{
+  if (menuOpen==false){
+   setMenuOpen(true)
+  }
+  }
+  const closeMenu = () =>{
+    if (menuOpen==true){
+      setMenuOpen(false)
+  }
+}
+   return (
     <main>
       <div>
-        <Navbar/>
-      <Hero/>
-      <About/>
-      <WhyMe/>
-      <Portfolio/>
-      <Catalogue/>
+        <Sidebar closeMenu={closeMenu} menuOpen={menuOpen}/>
+        <Navbar openMenu={openMenu}/>
+      <Hero openMenu={openMenu}/>
+     <About/>
+       <WhyMe/>
+       <Portfolio/>
+       <Catalogue/>
       <Contact/>
       <Footer/>
       </div>

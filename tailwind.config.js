@@ -1,5 +1,9 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
+  variants: {
+    width: ['focus', 'active', 'group-focus', 'group-active'],
+  },
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -17,7 +21,12 @@ module.exports = {
       },
       gridTemplateColumns: {
         'fluid': 'repeat(auto-fit, minmax(20rem, 1fr))',
-      }
+        'solid': 'repeat(auto-fit, minmax(10rem, 1fr))',
+      } 
+    },
+    screens: {
+      'mobile': '475px',
+      ...defaultTheme.screens,
     },
   },
   plugins: [],

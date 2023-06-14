@@ -14,7 +14,7 @@ const Catalogue = () => {
              {portfolioData.map((data)=>{
                  const {id,img,link,title}=data;
                  return(
-                <div className='cursor-pointer relative group'>
+                    <a href={link} target="_blank" rel="noreferrer"><div className='cursor-pointer relative group' key={id}>
                 <div className='absolute invisible group-hover:visible w-[100%] h-[100%] bg-[#000000b3] flex items-center justify-center'>
                 <div>
                     <div className='w-[2rem] h-[2rem] bg-[#f83b66] flex items-center justify-center absolute right-0 mt-[1rem] top-0 mr-[1rem]'>
@@ -25,7 +25,7 @@ const Catalogue = () => {
                 </div>
                 </div>
                     <img src={img} alt=''/>
-                </div>
+                </div></a>
                  )
              })}
          </div>
