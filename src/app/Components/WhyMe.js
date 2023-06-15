@@ -6,7 +6,7 @@ const WhyMe = () => {
             <div className='w-[90vw] md:w-[75vw] lg:w-[83vw] mx-[auto] mt-[1.5rem] relative'>
             <h1 className='absolute top-0 left-0 right-0 md:mt-[-5.5rem] mt-[-4rem] mx-auto text-center text-[5.5rem] md:text-[7.5rem] font-semibold text-black opacity-[0.03]'>Services</h1>
                 <h1 className='text-[1.8rem] md:text-[3rem] font-semibold text-center text-black opacity-90'>Why Choose Me?<span className='text-[#f83b66]'>___</span></h1>
-            <p className='text-center text-black opacity-90 font-semibold mt-[0.5rem]'>I'm different from others because I provide extra facilities as bonuses such as:</p>
+            <p className='text-center text-black opacity-90 font-semibold mt-[0.5rem]'>I am different from others because I provide extra facilities as bonuses such as:</p>
             <div className='grid md:grid-cols-3 mt-[3.5rem] gap-[2rem]'>
              <div className='md:col-span-1 bg-white px-[2rem] pb-[2rem]'>
              <img src='Images/dev1.gif' alt='' className='w-[7rem] mx-auto'/>
