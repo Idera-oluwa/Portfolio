@@ -20,19 +20,19 @@ export const portfolioData=[
     {
         id:4,
         img:'Images/work4.png',
-        link:'https://derah-blog.netlify.app/',
-        title:'Blog Web Application'
+        link:'https://wysoft-ng.com/',
+        title:'Wyoft Resourcery LTD'
     },
     {
         id:5,
         img:'Images/work5.png',
-        link:'https://derah-search-github-users.netlify.app/',
-        title:'Search Github User'
+        link:'https://derah-blog.netlify.app/',
+        title:'Blog Web Application'
     },
     {
         id:6,
         img:'Images/work6.png',
-        link:'https://derah-landingpage-1.netlify.app/',
-        title:'Food Splash Landing Page'
+        link:'https://derah-search-github-users.netlify.app/',
+        title:'Search Github User'
     }
 ]
