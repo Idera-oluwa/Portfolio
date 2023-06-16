@@ -14,14 +14,14 @@ export const portfolioData=[
     {
         id:3,
         img:'Images/work3.png',
-        link:'https://konga-landingpage-clone.netlify.app/',
-        title:'Konga Landing Page Clone'
+        link:'https://wysoft-ng.com/',
+        title:'Wyoft Resourcery LTD'
     },
     {
         id:4,
         img:'Images/work4.png',
-        link:'https://wysoft-ng.com/',
-        title:'Wyoft Resourcery LTD'
+        link:'https://konga-landingpage-clone.netlify.app/',
+        title:'Konga Landing Page Clone'
     },
     {
         id:5,
