@@ -63,7 +63,7 @@ const Hero = ({openMenu}) => {
 </div>
               <div className='flex flex-row md:hidden text-[white] ml-auto text-[1.3rem] cursor-pointer'><FaBars onClick={openMenu}/></div>
         </div>
-        <div className='text-[1.8rem] md:text-[2.7rem] lg:text-[3.5rem] mt-[11rem] sm:mt-[8rem] font-semibold flex justify-center items-center text-white'>
+        <div className='text-[1.8rem] md:text-[2.7rem] lg:text-[3.5rem] mt-[10rem] sm:mt-[8rem] font-semibold flex justify-center items-center text-white'>
         <Typewriter
             words={["I'm Isa Zainab", "I'm Frontend Developer", "I Do On-Page SEO"]}
             loop={true}
