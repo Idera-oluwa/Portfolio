@@ -65,7 +65,7 @@ const Hero = ({openMenu}) => {
         </div>
         <div className='text-[1.8rem] md:text-[2.7rem] lg:text-[3.5rem] mt-[11rem] sm:mt-[8rem] font-semibold flex justify-center items-center text-white'>
         <Typewriter
-            words={["I'm Isa Zainab", "I'm a Frontend Developer", "I Do On-Page SEO"]}
+            words={["I'm Isa Zainab", "I'm Frontend Developer", "I Do On-Page SEO"]}
             loop={true}
             cursor
             cursorStyle='|'
