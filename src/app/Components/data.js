@@ -26,8 +26,8 @@ export const portfolioData=[
     {
         id:5,
         img:'Images/work5.png',
-        link:'https://derah-blog.netlify.app/',
-        title:'Blog Web Application'
+        link:'https://grandmindcare.co.uk',
+        title:'Grandmind care'
     },
     {
         id:6,
