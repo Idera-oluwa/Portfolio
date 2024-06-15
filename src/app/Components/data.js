@@ -7,7 +7,7 @@ export const portfolioData=[
     },
     {
         id:2,
-        img:'Images/work2.png',
+        img:'Images/work8.png',
         link:'https://lifecomradio.org.uk',
         title:'Lifecom radio'
     },
@@ -25,7 +25,7 @@ export const portfolioData=[
     },
     {
         id:5,
-        img:'Images/work5.png',
+        img:'Images/work9.png',
         link:'https://grandmindcare.co.uk',
         title:'Grandmind care'
     },
