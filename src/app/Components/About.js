@@ -12,7 +12,7 @@ const About = () => {
             <p className='text-black opacity-90 mt-[1rem]'>Isa Zainab is a Software Developer with a primary focus on frontend development, experienced in HTML, CSS, JavaScript, and React Js.</p>
             <p className='font-semibold text-black opacity-90 mt-[1rem]'>This site is owned and operated by Isa Zainab.</p>
             <p className='font-semibold text-black opacity-90'>Skills:</p>
-            <p className='text-black opacity-90'>HTML5, CSS3, Javascript, Bootstrap, SASS, React Js, Git, Redux, Tailwind, Next Js, Graphql, Graphcms, Firebase</p>
+            <p className='text-black opacity-90'>HTML5, CSS3, Javascript, Bootstrap, SASS, React Js, Git, Redux, Tailwind, Next Js, Graphql, Graphcms, Firebase, Node js, Express js, MongoDB</p>
             <p className='font-semibold text-black opacity-90 mt-[1rem]'>Key Features:</p>
             <div className='flex flex-row gap-[1rem] items-center text-black opacity-90'><ImCheckmark className='text-[#f83b66]'/><p>Fully Responsive</p></div>
             <div className='flex flex-row gap-[1rem] items-center text-black opacity-90'><ImCheckmark className='text-[#f83b66]'/><p>Cross browser compatible</p></div>
