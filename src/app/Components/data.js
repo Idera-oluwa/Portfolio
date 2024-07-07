@@ -8,7 +8,7 @@ export const portfolioData=[
     {
         id:2,
         img:'Images/work8.png',
-        link:'https://lifecomradio.org.uk',
+        link:'https://lifecomradio.netlify.app',
         title:'Lifecom radio'
     },
     {
